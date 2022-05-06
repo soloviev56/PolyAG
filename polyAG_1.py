@@ -206,7 +206,7 @@ while True:             # Event Loop
     if event == 'Принять':
         for i in range(lenGroups):
             val=values['-IN'+str(i)+'-']
-            GroupsList[i]=int(val)
+            GroupsList[i]=float(val)
         Temp = float(values['-Temp-'])
         krist = float(values['-krist-'])
         Mavg = float(values['-Mavg-'])
